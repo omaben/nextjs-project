@@ -1,0 +1,24 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    // ESLint as default formatter
+    "eslint.format.enable": true,
+    "[typescript]": {
+        // formatter
+        "editor.defaultFormatter": "vscode.typescript-language-features", // A. VS Code Default: "vscode.typescript-language-features" B. ESLint Extension: "dbaeumer.vscode-eslint" C. Prettier Extension: "esbenp.prettier-vscode"
+        // indentation
+        "editor.tabSize": 3,
+        "editor.insertSpaces": true,
+        // Format and Organize Imports on save  "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.formatOnSave": true,
+        // "editor.codeActionsOnSave": {
+        //     "source.format": "explicit",
+        //     "source.fixAll.eslint": "explicit"
+        // },
+    },
+    // Exclude search locations
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/tmp": true
+    },
+}
